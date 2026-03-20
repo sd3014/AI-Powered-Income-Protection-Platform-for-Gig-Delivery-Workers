@@ -126,9 +126,20 @@ Postman – API testing
 ##Future Scope
 Further enhancements may include the ability to integrate the delivery platforms and gain access to real-time order and activity data in order to improve the detection of disruptions. The application may be enhanced further through the use of advanced AI techniques like deep learning and time series forecasting in the prediction of disruptions before they occur. The application may be scaled up to work in multiple cities and may be expanded further to include other gig economies like ride-sharing and freelancing. The application may be enhanced further through the introduction of personalized insurance plans based on the behavior of the individual workers. Further, the application may be enhanced through the introduction of adaptive learning and behavioral analytics in the detection of fraud cases. The application may be further enhanced through the introduction of digital payment systems and government alerts.
 
-
-
-
+![WhatsApp Image 2026-03-18 at 23 29 44](https://github.com/user-attachments/assets/8e1b963d-0b9a-4418-9bca-c7609bf246fe)
+![WhatsApp Image 2026-03-18 at 23 29 44 (1)](https://github.com/user-attachments/assets/26c8f9ab-a34d-4901-8dd0-195acf72404d)
+![WhatsApp Image 2026-03-18 at 23 29 44 (2)](https://github.com/user-attachments/assets/09b883ba-df44-43cc-9df0-d5000437c6ce)
+![WhatsApp Image 2026-03-18 at 23 29 45](https://github.com/user-attachments/assets/5602d084-3325-4da6-bb8e-5c48aa24bc2f)
+![WhatsApp Image 2026-03-18 at 23 29 45 (1)](https://github.com/user-attachments/assets/81ffd198-890c-4c7a-98ad-6a30ceb52f86)
+![WhatsApp Image 2026-03-18 at 23 29 41 (1)](https://github.com/user-attachments/assets/730681d3-bdcc-4c82-863b-59157ab74701)
+![WhatsApp Image 2026-03-18 at 23 29 42](https://github.com/user-attachments/assets/c858a2de-5345-4ad3-a466-19dcc99cbad9)
+![WhatsApp Image 2026-03-18 at 23 29 42 (1)](https://github.com/user-attachments/assets/ab72753d-b794-4fbb-b663-905abefa6ebf)
+![WhatsApp Image 2026-03-18 at 23 29 42 (2)](https://github.com/user-attachments/assets/17225d33-1f17-48bb-b27e-d33b6db0ee09)
+![WhatsApp Image 2026-03-18 at 23 29 43](https://github.com/user-attachments/assets/4cef5154-f7cf-4b41-94e8-aefc6bf0e21c)
+![WhatsApp Image 2026-03-18 at 23 29 43 (1)](https://github.com/user-attachments/assets/5f1d7d4f-a460-48fc-9369-9795d320e867)
+![WhatsApp Image 2026-03-18 at 23 29 43 (2)](https://github.com/user-attachments/assets/dab807e9-3884-4184-9daf-e19592d78178)
+![WhatsApp Image 2026-03-18 at 23 29 43 (3)](https://github.com/user-attachments/assets/f5cec445-9026-4d95-91e6-ae88c213560e)
+![WhatsApp Image 2026-03-18 at 23 29 41](https://github.com/user-attachments/assets/6e9f111d-72a5-4914-b918-d94fc3793105)
 
 
 
