@@ -1,19 +1,19 @@
 # AI-Powered-Income-Protection-Platform-for-Gig-Delivery-Workers
-##Introduction
+## Introduction
 
 Gig delivery workers are the foundation of modern on-demand logistics. The income of these workers is dependent on their deliveries. Hence, these workers are highly exposed and vulnerable to disruptions such as rainfall, floods, pollution, curfews, and closures of restaurants. The disruptions affect their deliveries and hence their income. Presently, there is no system that compensates workers for these disruptions.
 
-##Problem Statement
+## Problem Statement
 
 Delivery partners, also known as gig workers, are an integral part of the required services, especially in the food delivery and package delivery services. The gig workers are not paid a fixed wage, and their earnings are solely based on the number of deliveries made on a given day. Their earnings are highly variable and depend on the prevailing factors in the environment. Uncertain weather such as heavy rainfall, floods, excessive heat, pollution, traffic restrictions, curfews, or the closure of restaurants can hinder or completely stop the delivery services in a particular region. This forces the gig workers not to make any deliveries, thus they suffer from income loss.
 This is more so because gig workers do not enjoy traditional employment benefits such as wages and insurance. Despite the seriousness of this problem, at this moment there is no system in place that is able to identify these disruptions and provide compensation for the lost wages in real time. As such , there is a need for an efficient and intelligent system that is able to identify situations where workers are unable to earn because of external factors and provide them with compensation for their lost wages.
 
-##Proposed Solution
+## Proposed Solution
 
 Our system is an AI-based income protection system that works with existing delivery system infrastructure and automatically enables insurance coverage in response to significant reductions in earning opportunities for a delivery worker due to external factors. Instead of depending only on one factor such as weather, our system uses multi-signal detection to recognize actual disturbance in earning opportunities for workers. It analyzes various data sources-weather, traffic, public alerts, and availability of restaurants, to determine whether or not there has been an effect on earning opportunities for workers. The system will only determine that there has been a disruption if all signals indicate abnormal conditions ensuring high accuracy and and reducing false triggers.
 Once the worker’s claim of disruption is confirmed, the system immediately calculates the loss in income. The system will then compensate the worker instantly using a parametric insurance system. The entire process is completely automatic, thus there is no need for the worker to make claims. This makes the system efficient, reliable, and user-friendly.
 
-##System workflow
+## System workflow
 
 The system follows a structured and automatic workflow to detect disturbance and provide compensation:
 1.	Worker registers on the platform
@@ -32,7 +32,7 @@ The system follows a structured and automatic workflow to detect disturbance and
 
 ![WhatsApp Image 2026-03-19 at 23 10 33 (1)](https://github.com/user-attachments/assets/19f2e1cb-c404-4f3b-9d61-11be712e74c7)
 
-##System Architecture
+## System Architecture
 
 The system architecture is layered, and each component has a specific task to perform to effectively carry out the task of disruption detection and compensation.
 Data source layer
@@ -52,7 +52,7 @@ Interface for both the workers and admin. Workers can view their earnings, claim
 
 ![WhatsApp Image 2026-03-19 at 23 10 33](https://github.com/user-attachments/assets/8e770142-c40e-44dd-81e6-5b87ce96ac77)
 
-##Key modules
+## Key modules
 
 1. Disruption detection engine
 This module will be used to determine if there is a disruption or not. This will be based on signals. The signals will include the activity of deliveries and external signals, which will include weather conditions, traffic, public alerts, and the availability of restaurants. A disruption will be suspected if there is a reduction in the activities of deliveries. The detection will only be confirmed if there is another supporting signal.
@@ -71,12 +71,12 @@ Rainfall above threshold level	Weather risk
 AQI greater than 400	Pollution disruption
 Traffic speed below threshold	Movement blockage
 
-##AI/Ml Integration
+## AI/Ml Integration
 The system, as proposed, will utilize a variety of AI/ML techniques to achieve the goals of automated disruption detection, income loss estimation, and finally, fraud validation for parametric insurance. The system will utilize multiple sources of data, including weather conditions, traffic congestion, delivery activities, and worker-specific features, including GPS location and historical earnings. A time-series anomaly detection technique, combined with a multi-signal fusion approach, will be used to identify significant disruptions in delivery activities. Techniques, including Isolation Forest or Gradient Boosting, will be used to calculate a disruption score.
 
 The system will then utilize a regression-based approach to calculate approximate earnings based on historical data and subsequently determine income loss by comparing expected and actual earnings. The system will finally utilize a fraud detection component, including rule-based validation and anomaly detection, to validate the authenticity of claims based on location, activities, and historical patterns. The system will operate in a window-based approach, allowing for automated claim triggering and payment without human intervention.
 
-##Tech stack
+## Tech stack
 
 1.Frontend (User Interface)
 Used for worker and admin dashboards.
@@ -130,7 +130,7 @@ Docker (optional) – containerization
 Render / Railway / AWS (optional) – deployment
 Postman – API testing
 
-##Future Scope
+## Future Scope
 
 Further enhancements may include the ability to integrate the delivery platforms and gain access to real-time order and activity data in order to improve the detection of disruptions. The application may be enhanced further through the use of advanced AI techniques like deep learning and time series forecasting in the prediction of disruptions before they occur. The application may be scaled up to work in multiple cities and may be expanded further to include other gig economies like ride-sharing and freelancing. The application may be enhanced further through the introduction of personalized insurance plans based on the behavior of the individual workers. Further, the application may be enhanced through the introduction of adaptive learning and behavioral analytics in the detection of fraud cases. The application may be further enhanced through the introduction of digital payment systems and government alerts.
 
@@ -140,13 +140,13 @@ Further enhancements may include the ability to integrate the delivery platforms
 ![WhatsApp Image 2026-03-18 at 23 29 44](https://github.com/user-attachments/assets/cb029948-1f69-4ab6-80ca-65e977c9fde2)
 ![WhatsApp Image 2026-03-18 at 23 29 44 (1)](https://github.com/user-attachments/assets/795ebaa4-c3e7-4322-b58e-0d74fc8c289f)
 
-#Adversarial Defense & Anti-Spoofing Strategy
+# Adversarial Defense & Anti-Spoofing Strategy
 
-##Threat Model
+## Threat Model
 
 While coming across this problem statement we identified three types of attackers who might target the system. The first is single/individual worker using GPS spoofing tools to fake location data. The second is a coordinated group collaborate via platform like Telegram to exploit the system at scale. They come together to claim synchronized fraudulent claims. The third is the data level attacker who attempts to manipulate data into external APIs to trigger payment. Each of these category require different approach to detect fraud. These includes device-level validation, behavioral pattern analysis, group anomaly detection, and multisource verification. This ensures reliable and robust system security.
 
-##Multi-Layer Defense Architecture
+## Multi-Layer Defense Architecture
 
 1️⃣ Device & Location Integrity
 This layer checks spoofing by analyzing irregularities in location and movement. The system tracks sudden location jumps, unrealistic speed patterns and transition between distant coordinates. It cross checks GPS data with device sensor such as accelerometer and motion signals to look after physical movement and reported location validity. Additionally, it will check GPS coordinates with cell tower and network based positioning to detect the mismatch. Any inconsistency in these factors will be reflected in the risk score. This prevents the fraudulent claims to enter the payout pipeline.
@@ -169,13 +169,13 @@ Additionally, the system can also carry out account clustering analysis to ident
 4️⃣ Upstream Data Integrity
 When you did not collect the data yourself, how can you trust that data? When a delivery driver submits a disruption claim, our system does not rely solely on one weather feed to verify the claim because any single feed could go offline, or lose synchronisation, or worst of all, could be tampered with. In these instances, the system checks weather, traffic, and delivery activity independently at the same time and requires them to all tell the same story before we will accept that there was a disruption. As soon as the sources begin to provide inconsistent information – for example, one source is reporting a storm in one area, while another source is reporting clear skies in that same geographical region – the system will flag the discrepancy, suspend any automated payout, and the case will go to a human to determine if there is indeed a disruption. The logic here is simple: the more independent sources report the same thing, the more certain we are in our actions, and the more difficult it will be for someone to "game" the system by manipulating only a single data point.
 
-##Worker Trust Score
+## Worker Trust Score
 
 Each worker that has joined the platform is assigned a Trust Score of 0–100 based on their individual circumstances. An employee with a two-year history of consistent deliveries, for example, would be afforded more trust than one who just began delivery work; therefore, their Trust Score would be substantially different. All workers, regardless of how long they have worked on the Platform, will continue to receive Trust Scores; however, their scores may change based on their activity on the platform.
 
 As a result, the background-based Trust Score gives all workers—regardless of their time with the platform or how reliable they've been—an advantage. A worker who is known for delivering consistently would experience almost no verification through the payout process because their payout is initiated immediately after the claim is approved by the system. A worker whose performance history is not well-known would receive a partial payout while a verification continues to take place in real-time. If a worker has a low Worker Trust Score, their claim will be subject to an additional review before a payout is processed, but this is not considered a punishment; it is simply a prudent review period. The goal is to create an easy experience for honest workers and a difficult experience for dishonest workers.
 
-##False Positive Protection
+## False Positive Protection
 
 We have to make sure that delivery partners are not denied during real disturbance. In many situations, such as rain, bad network or issues with the GPS may affect the accuracy of tracking. Also we have to reduce the detection thresholds at the time of real events of significant disruption. The main doubt benefits would be only given to the workers whom we can trust and have a proper experience. We have to make our system transparent with a mechanism for our delivery partners to appeal. Our main priority should be to prioritize the authentic delivery partners and block all the other possible cases of fraud.
 
