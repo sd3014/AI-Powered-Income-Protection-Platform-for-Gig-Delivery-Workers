@@ -126,6 +126,12 @@ Postman – API testing
 ##Future Scope
 Further enhancements may include the ability to integrate the delivery platforms and gain access to real-time order and activity data in order to improve the detection of disruptions. The application may be enhanced further through the use of advanced AI techniques like deep learning and time series forecasting in the prediction of disruptions before they occur. The application may be scaled up to work in multiple cities and may be expanded further to include other gig economies like ride-sharing and freelancing. The application may be enhanced further through the introduction of personalized insurance plans based on the behavior of the individual workers. Further, the application may be enhanced through the introduction of adaptive learning and behavioral analytics in the detection of fraud cases. The application may be further enhanced through the introduction of digital payment systems and government alerts.
 
+![WhatsApp Image 2026-03-18 at 23 29 45](https://github.com/user-attachments/assets/2e2981ec-0e94-43cf-a73d-165e1f19766f)
+![WhatsApp Image 2026-03-18 at 23 29 43 (2)](https://github.com/user-attachments/assets/6dc0c477-a930-47e0-a4e0-6ae6bc8f4a5c)
+![WhatsApp Image 2026-03-18 at 23 29 43 (3)](https://github.com/user-attachments/assets/34784ce3-4023-442d-a682-2024d9b7e8d6)
+![WhatsApp Image 2026-03-18 at 23 29 44](https://github.com/user-attachments/assets/cb029948-1f69-4ab6-80ca-65e977c9fde2)
+![WhatsApp Image 2026-03-18 at 23 29 44 (1)](https://github.com/user-attachments/assets/795ebaa4-c3e7-4322-b58e-0d74fc8c289f)
+
 #Adversarial Defense & Anti-Spoofing Strategy
 
 ##Threat Model
