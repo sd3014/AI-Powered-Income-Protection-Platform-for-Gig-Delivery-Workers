@@ -183,6 +183,9 @@ We have to make sure that delivery partners are not denied during real disturban
 
 We learn from the claims done in the past and cases of fraud to constantly improve the system. We train again and again the AI model by using the original fraud data. So, based on the new patterns the adjustment of the threshold will be done for detection. Modifying the changes in the behavior of the user and new techniques for fraud. The system we make should be smarter, more dependable, and which becomes difficult to exploit over the period of time. Guarantee the long-term legitimate and organized way for the claim of detection and decisions of payouts.
 
+<img width="1920" height="1080" alt="Data Sources Layer (3)" src="https://github.com/user-attachments/assets/ff6e1d81-dc54-46ed-a619-fa66a98ff4a7" />
+
+
 
 
 
